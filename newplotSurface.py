@@ -20,7 +20,8 @@ Xa=byarray[:,[0]]
 Ya=byarray[:,[1]]
 Z=byarray[:,[2]]
 
-print(byarray[120:140,:3])
+#print(byarray[0:20,:3])
+#print(byarray[220:240,:3])
 
 X, Y = np.meshgrid(Xa, Ya)
 fig = plt.figure()
